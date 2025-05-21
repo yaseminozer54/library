@@ -8,6 +8,6 @@ public class LibraryController {
 
     @GetMapping("/")
     public String hello() {
-        return "Library Management System is running!";
+        return "Library Management System is running!!";
     }
 }
