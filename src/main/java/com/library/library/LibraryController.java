@@ -6,8 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LibraryController {
 
+   @Value("${HOSTNAME}")
+    private String hostname;
+
     @GetMapping("/")
     public String hello() {
-        return "Library Management System is running!!!!!!";
+        return "Hello from pod: " + hostname;
     }
 }
