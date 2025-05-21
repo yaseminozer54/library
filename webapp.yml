@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: p4-service
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: p4
   ports:
