@@ -16,7 +16,7 @@ kind: Deployment
 metadata:
   name: p4
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: p4
