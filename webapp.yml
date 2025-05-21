@@ -28,5 +28,6 @@ spec:
       containers:
         - name: p4
           image: yaseminozer/p4:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
